@@ -4,3 +4,9 @@ h1{
 article{
 	padding-top:30px;
 }
+p{
+	margin: 0;
+}
+img{
+	margin:0;
+}

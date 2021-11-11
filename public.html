@@ -20,7 +20,18 @@
 		</ul>
 		<p>Below is an example of inheritance in Python</p>
 		<img src="images/inheritance.png" alt="inhertiance image">
-		<p>The class, Calculation is the parent class and Addition is the child class. The child class takes Calculation as an argument and inherits the attributes and methods from the Calculation class 
+		<p>The class, Calculation is the parent class and Addition is the child class. The child class takes Calculation as an argument and inherits the attributes and methods from the Calculation class.<br>
+		As a result, the test function is able to create an Addition object with the Calculation properties. The Addition object is instantiated with the values of 1.0 and 2.0 using the __init__ constructor method from Calculation.</br>
+		and then the test function uses the get_result method from Addition to calculate the answer.</p>
 	</article>
+	<article>
+		<h3>Polymorphism</h3>
+		<p>Polymorphism simply means to have many forms. In programming, polymorphism means the same function name being used for different types. A simple example would be, print(len("length")) and print(len([10,20,30])) with the output being 6 and 3.<br>
+		<br>
+		Below is another example.</p>
+		<img src="images/polymorphism.png" alt="polymorphism image">
+		<p id="moveup">In this example, there are the classes Addition and Multiplication each with a test function. Both of the classes have a method named "get_result" which performs the calculations for the respected operation. The code below shows how Python<br>
+		can use two different class types. The test functions for Addition and Multiplication, each create an object for the respective operation and call the "get_result" method. The "get_result" method does something different<br>
+		depending on which object calls it. When an Addition object calls for it, addition is being performed. On the other hand multiplication will be performed if a Multiplication object calls the method.</p>
 </body>
 </html>
