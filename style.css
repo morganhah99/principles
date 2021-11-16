@@ -4,9 +4,13 @@ h1{
 article{
 	padding-top:30px;
 }
-p{
-	margin: 0;
+div{
+	height:200px;
+	width:75%;
 }
 img{
-	margin:0;
+	max-width:100%;
+}
+#space{
+	padding-top: 275px;
 }
